@@ -1,0 +1,107 @@
+
+body {
+    color: white;
+    font-family: 'anonymous pro', Tahoma, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+.para {
+    font-style: italic;
+
+}
+
+.avatar-img {
+    width: 300px;
+}
+
+.hero {
+    background-image: url('./Images/zugcity.webp');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    display: block;
+    background-color: #1D3557;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    box-shadow: 5px 5px 30px black;
+
+}
+
+#subtitle {
+    display: block;
+    background-color: #457B9D;
+    border-radius: 15px;
+    padding: 5px 15px;
+    box-shadow: 5px 5px 30px black;
+
+}
+
+.guide {
+    color: black;
+    margin-top: 550px;
+}
+
+.activities {
+    color: black;
+    background-color: #F1FAEE;
+    padding: 40px 20px;
+}
+
+.imgactivities {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#imgactivities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+
+
+.guide {
+    width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: #2b2839;
+    border-bottom: #1D3557 solid 8px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px black;
+
+    
+}
+
+.avatar {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: #1D3557 solid 2px;
+    margin: 10px 20px 10px;
+}
+
+
